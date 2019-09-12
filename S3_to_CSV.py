@@ -3,7 +3,7 @@ import csv
 from datetime import datetime
 import logging
 
-# Configuracao de Log
+# Log Configuration
 logging.basicConfig(
     filename="s3_csv.log",
     level=logging.DEBUG,
@@ -14,7 +14,7 @@ def s3_csv():
     print('|-----------------------|')
     print('|   Listing Buckets     |')
     print('|-----------------------|')
-    # Listando os buckets
+    # Listing the buckets
     s3 = boto3.resource('s3')
     logging.debug(s3)
     for bucket in s3.buckets.all():
