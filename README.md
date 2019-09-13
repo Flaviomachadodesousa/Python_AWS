@@ -23,20 +23,20 @@
 	   - Insert into created CSV name bucket, size, data modified, etag, storage, file,
 <br />
 2. File Create_Mysql.py
-   - Inform CSV that was generated with previous python file (S3_to_CSV.py).
-	 - Initiate mysql connection.
-	   - If the mysql connection is correct the message "connected" will appear.
-		 - Enter table name to create.
-		   - If the table is correct, it will execute the query and report that it was done successfully.
-			 - If entered wrong will display the error failed to create the table.
+   - Inform CSV that was generated with previous python file (S3_to_CSV.py)
+	 - Initiate mysql connection
+	   - If the mysql connection is correct the message "connected" will appear
+		 - Enter table name to create
+		   - If the table is correct, it will execute the query and report that it was done successfully
+			 - If entered wrong will display the error failed to create the table
 <br />
 3. File S3_to_CSV.py
    - Inform CSV that was generated with previous python file (S3_to_CSV.py)
 	 - Initiate mysql connection
 	   - If the mysql connection is correct the message "connected" will appear
-		 - Enter the CSV you want to import into the bank.
-		   - After typing the CSV, the CSV header will be created.
-		     - After informing the CSV file, it will do the for CSV header created in the previous step and will insert the data.
+		 - Enter the CSV you want to import into the bank
+		   - After typing the CSV, the CSV header will be created
+		     - After informing the CSV file, it will do the for CSV header created in the previous step and will insert the data
 <br />
 
 Version of Python used 3.6
