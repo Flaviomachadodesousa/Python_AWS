@@ -54,12 +54,12 @@
    - After informing the CSV file, it will do the for CSV header created in the previous step and will insert the data
 <br />
 
-4. create_bucket_S3.py
+4. File create_bucket_S3.py
    - Enter the name of the bucket you want.
    - After entering the bucket name, it will create in S3
 <br />
 
-5. list_bucket_S3.py
+5. File list_bucket_S3.py
    - Will list all buckets that exist in your AWS account.
 
 <br />
